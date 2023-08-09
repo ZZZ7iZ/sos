@@ -128,7 +128,7 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = getenv("https://telegra.ph/file/839cbe67ff070e5ff3b72.jpg)
+            PING_IMG_URL = getenv("https://telegra.ph/file/839cbe67ff070e5ff3b72.jpg")
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
