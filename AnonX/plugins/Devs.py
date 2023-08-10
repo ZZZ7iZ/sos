@@ -15,7 +15,7 @@ async def huhh(client: Client, message: Message):
  —————————————
  [𝙃 𝘼 𝙈 𝘿 ](https://t.me/IIIlIIv)
  
- [𓏺𓌹 𝐻𝑀𝑂𝐷 ᥫ᭡ ‌](https://t.me/IIIlIIv)
+ [𓏺𝐏𝐎𝐓 𖠙 𝙎𝙊𝙐𝙍𝘾𝙀 ‌](https://t.me/IIIlIIv)
   
  [⍟𓏺𝙒𝞝𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙋𝘼𝙍𝙆](https://t.me/ZZZ7iZ)
 """,
@@ -35,11 +35,11 @@ async def huhh(client: Client, message: Message):
 
     )
 
-@app.on_message(command([f"غنيلي", "غني", "غ", "{BOT_USERNAME} غنيلي"]))
+@app.on_message(command([f"قصيده", "قصائد", "ق", "{BOT_USERNAME} ق"]))
 async def ihd(client: Client, message: Message):
     rl = random.randint(8,20)
-    url = f"https://t.me/iV_P_Nl/{rl}"
-    await client.send_voice(message.chat.id,url,caption="[¦ تـم اختيـار الاغـنـية لـك](https://t.me/ZZZ7iZ)",
+    url = f"https://t.me/O_O_PI/{rl}"
+    await client.send_voice(message.chat.id,url,caption="[¦ تـم اختيـار القصيده لـك](https://t.me/ZZZ7iZ)",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -53,7 +53,7 @@ async def ihd(client: Client, message: Message):
 @app.on_message(command(["صوره","صور"]))
 async def ihd(client: Client, message: Message):
     rs = random.randint(39,148)
-    url = f"https://t.me/GTTUTY/{rs}"
+    url = f"https://t.me/osbsjsbsjsbsb/{rs}"
     await client.send_photo(message.chat.id,url,caption="[💕 ¦ تـم اختيـار الصوره لـك](https://t.me/ZZZ7iZ)",
     reply_markup=InlineKeyboardMarkup(
             [
