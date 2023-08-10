@@ -49,7 +49,7 @@ async def cr_source(client: Client, message: Message):
 async def cr_usage(_, callback_query: CallbackQuery):
     await callback_query.answer()
     await callback_query.message.edit_text(
-        text="""**⌯ 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**
+        text="""**𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙋𝘼𝙍𝙆**
 ★¦ اهلا بك عزيزي في قسم اوامر التشغيل في الجروبات
 ★¦ تشغيل + اسم الاغنيه
 ★¦ فديو + اسم الاغنيه
@@ -74,7 +74,7 @@ async def cr_usage(_, callback_query: CallbackQuery):
 ★¦ vplay + اسم الاغنيه
 ★¦ play + اسم الاغنيه
 
-**⌯ 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
+**⌯ @ZZZ7iZ**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -94,16 +94,16 @@ async def cr_usage(_, callback_query: CallbackQuery):
 async def cr_usage(_, callback_query: CallbackQuery):
     await callback_query.answer()
     await callback_query.message.edit_text(
-        text="""** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**
+        text="""**𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙋𝘼𝙍𝙆**
 ★¦ اهلا بك عزيزي في قسم اوامر التشغيل في القنوات
+★¦ تتشغيل+ اسم الاغنيه
 ★¦ شغل + اسم الاغنيه
-★¦ قناه + اسم الاغنيه
-★¦ مانو + اسم الاغنيه
+★¦ قناة + اسم الاغنيه
 ★¦ ق + اسم الاغنيه
 ★¦ اغاني + اسم الاغنيه
 ★¦ . + اسم الاغنيه
 ★¦ / + اسم الاغنيه
-** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
+** - @ZZZ7iZ**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -124,7 +124,7 @@ async def cr_usage(_, callback_query: CallbackQuery):
 async def cr_usage(_, callback_query: CallbackQuery):
     await callback_query.answer()
     await callback_query.message.edit_text(
-        text="""** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**
+        text="""**𝙎𝙊𝙐𝙍𝘾𝙀 𝙎𝙋𝘼𝙍𝙆**
 ★¦ اهلا بك عزيزي في قسم اوامر تشغيل الادمن
 ★¦ رفع ثانوي
 ★¦ تنزيل ثانوي
@@ -162,7 +162,7 @@ async def cr_usage(_, callback_query: CallbackQuery):
 ★¦ الاعدادت
 ★¦ بينج
 
-** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
+**- @ZZZ7iZ**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
