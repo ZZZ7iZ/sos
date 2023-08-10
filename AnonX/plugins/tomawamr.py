@@ -20,22 +20,22 @@ from pyrogram.errors import MessageNotModified
 )
 async def cr_source(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3123f5336cb10b95f6c0d.jpg",
-        caption=f"""** 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**\nمرحبا بك عزيزي {message.from_user.mention}\nهذا قسم الاوامر الخاص بسورس حياه \nلمعرفة الاو**""",
+        photo=f"https://telegra.ph/file/839cbe67ff070e5ff3b72.jpg",
+        caption=f"""\nمرحبا بك عزيزي {message.from_user.mention}\nهذا قسم الاوامر الخاص في البوت \nلمعرفة الاوامر اضغط على الازرار**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "اوامر الجروبات", callback_data="gr"),
+                        "‹ اوامر الكروبات ›", callback_data="gr"),
                     InlineKeyboardButton(
-                        "اوامر القنوات", callback_data="ch"),  
+                        "‹ اوامر القنوات ›", callback_data="ch"),  
                  ],[
                     InlineKeyboardButton(
-                        "اوامر الادمن", callback_data="adm"), 
+                        "", callback_data="adm"), 
                 ],[
                 
                     InlineKeyboardButton(
-                        "★ 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋⚡", url=f"https://t.me/VVHH9"),
+                        "‹ السورس ›", url=f"https://t.me/ZZZ7iZ"),
                 ],
 
             ]
@@ -180,7 +180,7 @@ async def cr_usage(_, callback_query: CallbackQuery):
     )
 
     
-@app.on_callback_query(filters.regex("back"))
+@app.on_callback_query(filters.regex("92939ه3ن4393ن3ه"))
 async def cr_back(_, callback_query: CallbackQuery):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/3123f5336cb10b95f6c0d.jpg",
