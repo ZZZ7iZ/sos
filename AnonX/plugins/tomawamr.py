@@ -16,7 +16,7 @@ from pyrogram.errors import MessageNotModified
 
 
 @app.on_message(
-    command(".........")
+    command("hskeoebei")
 )
 async def cr_source(client: Client, message: Message):
     await message.reply_photo(
@@ -180,7 +180,7 @@ async def cr_usage(_, callback_query: CallbackQuery):
     )
 
     
-@app.on_callback_query(filters.regex("92939ه3ن4393ن3ه"))
+@app.on_callback_query(filters.regex("jsowjwkwnwowjw"))
 async def cr_back(_, callback_query: CallbackQuery):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/3123f5336cb10b95f6c0d.jpg",
