@@ -55,14 +55,14 @@ async def huhh(client: Client, message: Message):
 
 
 @app.on_message(
-   command(["مبرمج السورس","مطور السورس"])
+   command(["",""])
    
 )
 async def yas(client, message):
     usr = await client.get_chat("N_1_F")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"**⌞𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋\nمعلومات مبرمج السورس \n↜︙Dev Name ↬ :{name} \n↜︙Dev User ↬ :@{usr.username} \n↜︙Dev id ↬ :{usr.id}**", 
+    await message.reply_photo(photo,       caption=f"**⌞معلومات مبرمج السورس \n↜︙Dev Name ↬ :{name} \n↜︙Dev User ↬ :@{usr.username} \n↜︙Dev id ↬ :{usr.id}**", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -85,7 +85,7 @@ async def yas(client, message):
     usr = await client.get_chat(USER_OWNER)
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"**⌞𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋 \nمعلومات المطور الاساسي\n↜︙Dev Name ↬ :{name} \n↜︙Dev User ↬ :@{usr.username} \n↜︙Dev id ↬ :{usr.id}**", 
+    await message.reply_photo(photo,       caption=f"**⌞معلومات المطور الاساسي\n↜︙Dev Name ↬ :{name} \n↜︙Dev User ↬ :@{usr.username} \n↜︙Dev id ↬ :{usr.id}**", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -124,7 +124,7 @@ async def yas(client, message):
 
 
 @app.on_message(
-   command(["ذكاء اصتناعي"])
+   command([""])
    
     
 )
@@ -158,17 +158,17 @@ async def huhh(client: Client, message: Message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3123f5336cb10b95f6c0d.jpg",
-        caption=f"""**𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**\nمرحبا بك عزيزي {message.from_user.mention} في قسم تشغيل القرأن الخاص بسورس كرستال\nلتتمكن من استخدام اوامر القرأن اكتب \n سورة + اسم السورة بالاسفل👇\n**𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋**""",
+        photo=f"https://telegra.ph/file/761c2237557e8c9c838bd.jpg",
+        caption=f"""**مرحبا بك عزيزي {message.from_user.mention} في قسم تشغيل القرأن الخاص بسورس عين\nلتتمكن من استخدام اوامر القرأن اكتب \n سورة + اسم السورة بالاسفل👇\n**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "᳒•𝐂𝐑𝐘𝐒𝐓𝐀𝐋 ˹َّّ", url=f"https://t.me/N_1_F"), 
+                        "‹ المطور ›", url=f"https://t.me/IIIlIIv"), 
                  ],[
                 
                     InlineKeyboardButton(
-                        "★𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋⚡", url=f"https://t.me/VVHH9"),
+                        "‹ السورس ›", url=f"https://t.me/ZZZ7iZ"),
                 ],
 
             ]
