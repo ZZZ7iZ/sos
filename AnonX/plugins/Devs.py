@@ -39,7 +39,7 @@ async def huhh(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(8,20)
     url = f"https://t.me/O_O_PI/{rl}"
-    await client.send_voice(message.chat.id,url,caption="[¦ تـم اختيـار القصيده لـك](https://t.me/ZZZ7iZ)",
+    await client.send_voice(message.chat.id,url,caption="**[⌁ : تـم اختيـار القصيده لـك](https://t.me/ZZZ7iZ)**",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -54,7 +54,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rs = random.randint(39,148)
     url = f"https://t.me/osbsjsbsjsbsb/{rs}"
-    await client.send_photo(message.chat.id,url,caption="[💕 ¦ تـم اختيـار الصوره لـك](https://t.me/ZZZ7iZ)",
+    await client.send_photo(message.chat.id,url,caption="**[⌁ : تـم اختيـار الصوره لـك](https://t.me/ZZZ7iZ)**",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -65,6 +65,20 @@ async def ihd(client: Client, message: Message):
         )
     )
 
-                        
+@app.on_message(command(["ميمز","م"]))
+async def ihd(client: Client, message: Message):
+    rs = random.randint(39,148)
+    url = f"https://t.me/iirrrq/{rs}"
+    await client.send_photo(message.chat.id,url,caption="**[⌁ : تـم اختيـار الميمز لـك](https://t.me/ZZZ7iZ)**",
+    reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        message.from_user.first_name, url=f"https://t.me/{message.from_user.username}")
+                ],
+            ]
+        )
+    )
+                   
 
 
