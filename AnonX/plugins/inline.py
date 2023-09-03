@@ -38,22 +38,22 @@ async def inline_query_handler(client, query):
                 [
                     [
                         InlineKeyboardButton(
-                            text="• ʏᴏᴜᴛᴜʙᴇ •",
+                            text="‹ اليوتيوب ›",
                             url=link,
                         )
                     ],
                 ]
             )
             searched_text = f"""
-📌 **العنوان:** [{title}]({link})
+**العنوان اسم الفيديو : ‹ ** [{title}]({link}) ›
 
-⏳ **المده:** {duration} Mins
-👀 **المشاهدات:** `{views}`
-⏰ **تم النشر في:** {published}
-🎥 **القناه:** {channel}
-📎 **رابط القناه:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
+**مده الفيديو : ‹** {duration} Mins ›
+**المشاهدات : ‹** `{views}` ›
+**وقت النشر : ‹** {published} ›
+**اسم القناة : ‹** {channel} ›
+**رابط القناة :** [‹ اضغط هنا ›]({channellink})
 
-💖 **تم البحث بواسطة {MUSIC_BOT_NAME}**"""
+**‹ تم البحث بواسطة : {MUSIC_BOT_NAME} ›**"""
             answers.append(
                 InlineQueryResultPhoto(
                     photo_url=thumbnail,
