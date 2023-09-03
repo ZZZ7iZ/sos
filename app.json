@@ -19,7 +19,7 @@
       },
      "CHANNEL_ID": {
         "description": "خلي مثل ماهو",
-        "value": "",
+        "value": "1747534",
         "required": true
       },
       "USER_OWNER": {
