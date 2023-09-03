@@ -165,7 +165,7 @@ async def start_comm(client, message: Message, _):
                 )
             return
         if name[0:3] == "inf":
-            m = await message.reply_text("دقيقه يقلبي وحانجيب البيانات")
+            m = await message.reply_text("**🔎 حسنا جاري البحث!**")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
@@ -197,7 +197,7 @@ async def start_comm(client, message: Message, _):
                 [
                     [
                         InlineKeyboardButton(
-                            text="• اليوتيوب •", url=f"{link}"
+                            text="‹ مشاهدة ›", url=f"{link}"
                         ),
                         InlineKeyboardButton(
                             text="‹ السورس ›", url="https://t.me/ZZZ7iZ"
@@ -236,7 +236,7 @@ async def start_comm(client, message: Message, _):
                 if message.from_user.id in owner: 
                    return await message.reply_text(f"**𖢿 | : مرحبا عزيزي المطور الاساسي {message.from_user.mention}\n𖢿 | : اليك ازرار التحكم بالاقسام\n𖢿 | : تستطيع التحكم بجميع الاقسام فقط اضغط على القسم الذي تريده**",reply_markup=main_dev_key)
                 else:  
-                   await message.reply_text(f"**اهلا عزيزي {message.from_user.mention}\n\n في بوت الميوزك {MUSIC_BOT_NAME} الخاص بي @{USER_OWNER} \n\n هذا بوت تشغيل اغاني وبه الكثير من المميزات الجميله \n\n ارفع البوت مشرف وهايرفعك مالك ويرفع المشرفين تلقائي**",reply_markup=Owneruser)
+                   await message.reply_text(f"**- نورت عمࢪي**",reply_markup=Owneruser)
                    return await message.reply_photo(
                     photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
