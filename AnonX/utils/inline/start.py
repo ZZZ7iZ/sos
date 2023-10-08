@@ -38,13 +38,14 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="‹ الاوامر ›", callback_data="settings_back_helper"
+                text="‹ اوامر  التشغيل ›",
+                    callback_data="help_callback hb2",
+            )
+            InlineKeyboardButton(
+                text="‹ لتنصيب بوت ›", url=f"https://t.me/IIIlIIv"
             )
         ],
         [
-            InlineKeyboardButton(
-                text="‹ لتنصيب بوت ›", url=f"https://t.me/IIIlIIv"
-            ),
             InlineKeyboardButton(
                 text="‹ مطور البوت ›", user_id=OWNER
             )
