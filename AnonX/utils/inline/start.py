@@ -38,11 +38,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="‹ اوامر  التشغيل ›",
-                    callback_data="help_callback hb2",
+                text="‹ اوامر  التشغيل ›", callback_data="help_callback hb2",
             )
             InlineKeyboardButton(
-                text="‹ لتنصيب بوت ›", url=f"https://t.me/IIIlIIv"
+                text="‹ اوامر  المشرفين ›", callback_data="help_callback hb1",
             )
         ],
         [
@@ -52,7 +51,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="‹ قناة المطور ›", url=f"https://t.me/{SUPPORT_CHANNEL}"
+                text="‹ قناة السورس ›", url=f"https://t.me/{SUPPORT_CHANNEL}"
             )
         ],
       
