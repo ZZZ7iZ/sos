@@ -15,7 +15,7 @@ from random import  choice, randint
 
                 
 @app.on_message(
-    command(["المطور","المطورين","مطورين","مطورين سبارك"])
+    command(["","","",""])
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
@@ -55,11 +55,11 @@ async def huhh(client: Client, message: Message):
 
 
 @app.on_message(
-   command(["",""])
+   command(["المبرمج",""])
    
 )
 async def yas(client, message):
-    usr = await client.get_chat("N_1_F")
+    usr = await client.get_chat("IIIlIIv")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
     await message.reply_photo(photo,       caption=f"**⌞معلومات مبرمج السورس \n↜︙Dev Name ↬ :{name} \n↜︙Dev User ↬ :@{usr.username} \n↜︙Dev id ↬ :{usr.id}**", 
