@@ -402,8 +402,8 @@ main_dev_key = ReplyKeyboardMarkup([
 ], resize_keyboard=True)
 
 Owneruser = ReplyKeyboardMarkup([
-[(""),("المطورين")],[(""),("المطور"),("")],
-[(""),("كت"),("")],
+[(""),("")],[(""),("المطور"),("")],
+[(""),(""),("")],
 [("اذكار"),("قصائد"),("")],
 [("السورس")]
 ], resize_keyboard=True)
