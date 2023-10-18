@@ -5,7 +5,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from AnonX import app, Telegram
 import random
 @app.on_message(
-    command(["صورص","سييي","سورسيي","سورس سبارك", "السورس"])
+    command(["","",""," ", ""])
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
