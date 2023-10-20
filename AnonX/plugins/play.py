@@ -23,7 +23,6 @@ from AnonX.utils.inline.play import (livestream_markup,
                                           playlist_markup,
                                           slider_markup, track_markup)
 from AnonX.utils.inline.playlist import botplaylist_markup
-from AnonX.utils.logger import play_logs
 from AnonX.utils.stream.stream import stream
 
 # Command
