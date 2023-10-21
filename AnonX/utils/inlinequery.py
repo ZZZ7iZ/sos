@@ -6,8 +6,8 @@ answer = []
 answer.extend(
     [
         InlineQueryResultArticle(
-            title="🙄 ايقاف 🙄",
-            description=f"لايقاف التشغيل المؤقت.",
+            title="‹ ايقاف التشغيل موقتاً ›",
+            description=f"يقوم بإيقاف التشغيل الحالي على مكالمة الجماعية.",
             thumb_url="https://telegra.ph/file/c5952790fa8235f499749.jpg",
             input_message_content=InputTextMessageContent("/pause"),
         ),
