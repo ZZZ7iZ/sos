@@ -200,7 +200,7 @@ async def start_comm(client, message: Message, _):
                             text="‹ مشاهدة ›", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="‹ السورس ›", url="https://t.me/ZZZ7iZ"
+                            text="‹ السورس ›", url="https://t.me/VV_RSI"
                         ),
                     ],
                 ]
@@ -402,8 +402,8 @@ main_dev_key = ReplyKeyboardMarkup([
 ], resize_keyboard=True)
 
 Owneruser = ReplyKeyboardMarkup([
-[(""),("")],[(""),("المطور"),("")],
+[(""),("")],[(""),(""),("")],
 [(""),(""),("")],
-[("اذكار"),("قصائد"),("")],
-[("السورس")]
+[(""),(""),("")],
+[("")]
 ], resize_keyboard=True)
